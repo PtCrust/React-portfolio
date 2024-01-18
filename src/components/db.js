@@ -92,7 +92,8 @@ const projectCard = [
         desc: "CV website",
         imgS: "./images/react-portfolio.png",
         imgA: "cv",
-        github: "https://github.com/PtCrust/React-portfolio",
+        // github: "https://github.com/PtCrust/React-portfolio",
+        github:"",
         link: ""
 
     },
