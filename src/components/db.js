@@ -46,7 +46,7 @@ const projectCard = [
         id: 5,
         category: ["project"],
         title: "Furniture Website",
-        desc: "desc",
+        desc: "Furniture website using HTML , CSS , JS and Bootstrap",
         imgS: "./images/furniture1.png",
         imgA: "furniture img",
         github: "https://github.com/PtCrust/Furniture-Website",
