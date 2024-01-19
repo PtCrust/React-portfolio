@@ -36,7 +36,7 @@ const projectCard = [
         id: 4,
         category: ["certificate"],
         title: "Google IT Support Specialist course 2",
-        desc: "final grade: 98%",
+        desc: "final grade: 94.69%",
         imgS: "./images/bit.png",
         imgA: "Google course 2",
         github: "",
@@ -66,7 +66,7 @@ const projectCard = [
         id: 7,
         category: ["certificate"],
         title: "Google IT Support Specialist course 1",
-        desc: "Final grade: 98%",
+        desc: "Final grade: 98.75%",
         imgS: "./images/it.png",
         imgA: "Google course 1",
         github: "",
@@ -90,8 +90,7 @@ const projectCard = [
         desc: "CV website",
         imgS: "./images/react-portfolio.png",
         imgA: "cv",
-        // github: "https://github.com/PtCrust/React-portfolio",
-        github:"",
+        github: "https://github.com/PtCrust/React-portfolio",
         link: ""
 
     },
