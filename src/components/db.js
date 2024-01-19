@@ -81,9 +81,7 @@ const projectCard = [
         imgS: "./images/reactApp.png",
         imgA: "reactApp",
         github: "https://github.com/PtCrust/React-Ecommerce-App",
-        // link: "https://tony-reactapp.netlify.app/"
-        link:""
-
+        link: "https://tony-reactapp.netlify.app/"
     },
     {
         id: 9,
