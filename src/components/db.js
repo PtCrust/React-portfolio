@@ -115,6 +115,17 @@ const projectCard = [
         github: "",
         link: "./images/tony sameh.pdf"
 
+    },
+    {
+        id: 12,
+        category: ["react","project" ,"taileind"],
+        title: "Nike",
+        desc: "React Vite + Tailwind css",
+        imgS: "./images/nike.png",
+        imgA: "Nike",
+        github: "https://github.com/PtCrust/Nike",
+        link: "https://nike-dev-tony.netlify.app"
+
     }
 ]
 export default projectCard;
