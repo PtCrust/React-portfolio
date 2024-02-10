@@ -110,7 +110,7 @@ const projectCard = [
         category: ["CV"],
         title: "cv.pdf",
         desc: "Resume",
-        imgS: "./images/tony sameh.pdf",
+        imgS: "./images/Tony-Resume.pdf",
         imgA: "cv.pdf",
         github: "",
         link: "./images/tony sameh.pdf"
