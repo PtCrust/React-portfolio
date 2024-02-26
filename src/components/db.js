@@ -126,6 +126,17 @@ const projectCard = [
         github: "https://github.com/PtCrust/Nike",
         link: "https://nike-dev-tony.netlify.app"
 
+    },
+        {
+        id: 13,
+        category: ["react","project"],
+        title: "Gerchit restaurant",
+        desc: "React",
+        imgS: "",
+        imgA: "gerichtImage",
+        github: "https://github.com/PtCrust/gericht-restaurant",
+        link: "https://gericht-react-restaurant.netlify.app/"
+
     }
 ]
 export default projectCard;
