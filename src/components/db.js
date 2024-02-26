@@ -132,9 +132,9 @@ const projectCard = [
         category: ["react","project"],
         title: "Gerchit restaurant",
         desc: "React",
-        imgS: "",
+        imgS: "./images/Gericht.png",
         imgA: "gerichtImage",
-        github: "https://github.com/PtCrust/gericht-restaurant",
+        github: "https://github.com/PtCrust/Gericht-restaurant",
         link: "https://gericht-react-restaurant.netlify.app/"
 
     }
