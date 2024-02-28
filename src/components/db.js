@@ -76,8 +76,8 @@ const projectCard = [
     {
         id: 8,
         category: ["project", "react"],
-        title: "React project",
-        desc: "E-commerce website",
+        title: "React E-commerce website",
+        desc: "Using Redux and Toolkit",
         imgS: "./images/reactApp.png",
         imgA: "reactApp",
         github: "https://github.com/PtCrust/React-Ecommerce-App",
@@ -86,8 +86,8 @@ const projectCard = [
     {
         id: 9,
         category: ["project", "react"],
-        title: "React project",
-        desc: "CV website",
+        title: "React portfolio website",
+        desc: "Using formspree, framer-motion and lottie",
         imgS: "./images/react-portfolio.png",
         imgA: "cv",
         github: "https://github.com/PtCrust/React-portfolio",
