@@ -141,12 +141,12 @@ const projectCard = [
     {
         id: 14,
         category: ["react" , "project"],
-        title: "Factory website",
+        title: "Plastic Factory website",
         desc: "Figma to Reactjs",
-        imgS: "./images/factory.png",
+        imgS: "./images/nileandfourbrothers.png",
         imgA: "factoryImage",
         github: "https://github.com/PtCrust/Factory-React",
-        link: "https://factory-reactapp.netlify.app/"
+        link: "https://nileandfourbrothers.netlify.app/"
     }
 ]
 export default projectCard;
