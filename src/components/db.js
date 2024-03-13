@@ -113,7 +113,7 @@ const projectCard = [
         imgS: "./images/Resume.pdf",
         imgA: "CvImage",
         github: "",
-        link: "./images/resume.pdf"
+        link: "./images/Resume.pdf"
 
     },
     {
