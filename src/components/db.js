@@ -147,6 +147,16 @@ const projectCard = [
         imgA: "factoryImage",
         github: "https://github.com/PtCrust/Factory-React",
         link: "https://nileandfourbrothers.netlify.app/"
+    },
+    {
+        id: 15,
+        category: ["certificates"],
+        title: "Meta's Advanced React Course",
+        desc: "Final Grade: 99.50%",
+        imgS: "./images/Coursera.pdf",
+        imgA: "Coursera",
+        github: "./images/Coursera.pdf",
+        link: "./images/Coursera.pdf"
     }
 ]
 export default projectCard;
