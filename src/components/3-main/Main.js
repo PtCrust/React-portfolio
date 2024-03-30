@@ -27,7 +27,7 @@ export default function Main() {
     const fileExtension = cardimgS.split('.').pop().toLowerCase();
 
     if (fileExtension === 'pdf') {
-      return <iframe src={cardimgS} title='pdf' style={{ width: "100%", height: "400px" }} allowFullScreen frameBorder={0} />;
+      return <iframe src={cardimgS} title='pdf' style={{ width: "100%"}} allowFullScreen frameBorder={0} />;
     } else if (['jpg', 'jpeg', 'png', 'gif'].includes(fileExtension)) {
       return <img src={cardimgS} alt="Preview" width={"100%"} />;
     } else {
