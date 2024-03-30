@@ -150,9 +150,9 @@ const projectCard = [
     },
     {
         id: 15,
-        category: ["certificates"],
+        category: ["certificate"],
         title: "Meta's Advanced React Course",
-        desc: "Final Grade: 99.50%",
+        desc: "Final Grade: 97.50%",
         imgS: "./images/Coursera.pdf",
         imgA: "Coursera",
         github: "./images/Coursera.pdf",
