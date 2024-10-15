@@ -44,23 +44,23 @@ const projectCard = [
     },
     {
         id: 5,
-        category: ["project"],
-        title: "Furniture Website",
-        desc: "Furniture website using HTML , CSS , JS and Bootstrap",
-        imgS: "./images/furniture1.png",
-        imgA: "furniture img",
-        github: "https://github.com/PtCrust/Furniture-Website",
-        link: "https://ptcrust.github.io/Furniture-Website/"
+        category: ["mern", "project"],
+        title: "Workout Application",
+        desc: "MERN Stack CRUD Application with React Context and JWT Authentication",
+        imgS: "./images/mernStack.png",
+        imgA: "mernStack",
+        github: "https://github.com/PtCrust/MernStack",
+        link: "https://github.com/PtCrust/MernStack"
     },
     {
         id: 6,
-        category: ["project"],
-        title: "Graduation project",
-        desc: "Final grade: Excellent",
-        imgS: "./images/Gproject.png",
-        imgA: "Graduation project img",
-        github: "",
-        link: "./images/Gproject.png"
+        category: ["react", "project"],
+        title: "Book List Website with React Context",
+        desc: "A website that allows users to add and delete books using React Context for state management. Implemented local storage to persist book data.",
+        imgS: "./images/bookList.png",
+        imgA: "bookList",
+        github: "https://github.com/PtCrust/Context-List-Book",
+        link: "https://context-book-list.netlify.app/"
     },
     {
         id: 7,
@@ -118,7 +118,7 @@ const projectCard = [
     },
     {
         id: 12,
-        category: ["react","project" ,"taileind"],
+        category: ["react", "project", "taileind"],
         title: "Nike",
         desc: "React Vite + Tailwind css",
         imgS: "./images/nike.png",
@@ -127,9 +127,9 @@ const projectCard = [
         link: "https://nike-dev-tony.netlify.app"
 
     },
-        {
+    {
         id: 13,
-        category: ["react","project"],
+        category: ["react", "project"],
         title: "Gerchit restaurant",
         desc: "React",
         imgS: "./images/Gericht.png",
@@ -140,7 +140,7 @@ const projectCard = [
     },
     {
         id: 14,
-        category: ["react" , "project"],
+        category: ["react", "project"],
         title: "Plastic Factory website",
         desc: "Figma to Reactjs",
         imgS: "./images/nileandfourbrothers.png",
@@ -157,6 +157,26 @@ const projectCard = [
         imgA: "Coursera",
         github: "./images/Coursera.pdf",
         link: "./images/Coursera.pdf"
-    }
+    },
+    {
+        id: 16,
+        category: ["project"],
+        title: "Furniture Website",
+        desc: "Furniture website using HTML , CSS , JS and Bootstrap",
+        imgS: "./images/furniture1.png",
+        imgA: "furniture img",
+        github: "https://github.com/PtCrust/Furniture-Website",
+        link: "https://ptcrust.github.io/Furniture-Website/"
+    },
+    {
+        id: 17,
+        category: ["project"],
+        title: "Graduation project",
+        desc: "Final grade: Excellent",
+        imgS: "./images/Gproject.png",
+        imgA: "Graduation project img",
+        github: "",
+        link: "./images/Gproject.png"
+    },
 ]
 export default projectCard;

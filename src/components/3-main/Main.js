@@ -27,7 +27,7 @@ export default function Main() {
     const fileExtension = cardimgS.split('.').pop().toLowerCase();
 
     if (fileExtension === 'pdf') {
-      return <iframe src={cardimgS} title='pdf' style={{ width: "100%"}} allowFullScreen frameBorder={0} />;
+      return <iframe src={cardimgS} title='pdf' style={{ width: "100%" }} allowFullScreen frameBorder={0} />;
     } else if (['jpg', 'jpeg', 'png', 'gif'].includes(fileExtension)) {
       return <img src={cardimgS} alt="Preview" width={"100%"} />;
     } else {
@@ -44,10 +44,15 @@ export default function Main() {
           getProject("project");
         }}>All Projects</button>
 
+        <button className={active === "mern" ? "active" : null} onClick={() => {
+          setActive("mern");
+          getProject("mern");
+        }}>MERN Applications</button>
+
         <button className={active === "react" ? "active" : null} onClick={() => {
           setActive("react");
           getProject("react");
-        }}>React</button>
+        }}>React | Context</button>
 
         <button className={active === "certificate" ? "active" : null} onClick={() => {
           setActive("certificate");
@@ -73,10 +78,10 @@ export default function Main() {
                 initial={{ transform: "scale(0.5)" }}
                 animate={{ transform: "scale(1)" }}
                 // exit={{ transform: "scale(0)" }}
-                transition={{type: "spring" ,damping: 8 ,stiffness:80}}
-              
-              className='card' key={card.id} style={{ width: "17rem" }}>
-                
+                transition={{ type: "spring", damping: 8, stiffness: 80 }}
+
+                className='card' key={card.id} style={{ width: "17rem" }}>
+
                 {FileViewer(card.imgS)}
 
                 <div className='box'>
@@ -84,7 +89,7 @@ export default function Main() {
                   <p className='sub-title'>{card.desc}</p>
                   <div className='flex icons'>
                     <div className='flex' style={{ gap: "11px" }}>
-                      <a href={card.github}  target="_blank" rel={"noreferrer"}><span className='icon-github' /></a>
+                      <a href={card.github} target="_blank" rel={"noreferrer"}><span className='icon-github' /></a>
                     </div>
                     <a href={card.link} target="_blank" rel={"noreferrer"} className='more flex'>Go to site<span className='icon-arrow-right' /></a>
                   </div>
